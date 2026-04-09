@@ -12,4 +12,4 @@ def upload_images(bucket_name, source_folder):
             print(f"Uploaded {filename} to {bucket_name}")
 
 if __name__ == "__main__":
-    upload_images("Danio_echo_images", "./local_images")
+    upload_images("Danio_echo_images", "./mutant_larvae")
